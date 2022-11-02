@@ -35,17 +35,13 @@ struct CartView: View {
                         .padding()
                     
                 }
-                
-                
-                
                 else {
                     Text("Your Cart Is Empty")
                     
                 }
                 
             }
-            
-            
+ 
         }
         .navigationTitle(Text("My Cart"))
         .padding(.top)

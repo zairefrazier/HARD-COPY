@@ -28,9 +28,6 @@ struct UIVideoPlayer: View {
             
         } else {
             VStack {
-
-//                .scaleEffect(size)
-//                .opacity(opacity)
                 VStack {
                     Text(shortString ? "This is short." : "Does it matter if you can't get the **HARD COPY**")
                     + Text("TM")
