@@ -36,9 +36,6 @@ struct ProductRow: View {
                 .onTapGesture {
                     cartManager.removeFromCart(product: product)
                 }
-                
-            
-            
         }
         .padding(.horizontal)
         .frame(maxWidth: .infinity,alignment: .leading)
